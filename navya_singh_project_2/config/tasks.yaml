@@ -1,0 +1,33 @@
+supervisor_task:
+  description: >
+    Analyze the user's request, determine the intent, decide which specialist
+    agents should handle it, create a work plan, and coordinate the workflow.
+
+  expected_output: >
+    A delegation plan specifying which agents should execute which tasks.
+
+  agent: supervisor
+
+
+analyst_task:
+  description: >
+    Analyze the provided dataset or business problem. Profile the data,
+    suggest KPIs, recommend dashboards, validate SQL if required,
+    and identify business insights.
+
+  expected_output: >
+    A structured business analytics report with KPIs and dashboard suggestions.
+
+  agent: data_analyst
+
+
+scientist_task:
+  description: >
+    Analyze the dataset for machine learning opportunities.
+    Recommend ML problem types, feature engineering ideas,
+    evaluation metrics, and identify data quality risks.
+
+  expected_output: >
+    A structured machine learning recommendation report.
+
+  agent: data_scientist
