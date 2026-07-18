@@ -1,0 +1,11 @@
+streamlit
+crewai
+crewai-tools
+python-dotenv
+pandas
+duckdb
+sqlparse
+sqlglot
+scikit-learn
+plotly
+mcp
